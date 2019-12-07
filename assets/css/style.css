@@ -1,0 +1,77 @@
+header {
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+    height: 70px;
+}
+ul {
+    text-align: right;
+    margin: 0px 288px 10px 0px;
+    padding: 20px 0px 20px 100px;
+    color:gray;
+}
+li {
+    color: gray;
+    display: inline;
+    clear:left;
+    text-align: right;
+}
+hr {
+    color:gray;
+}
+.navbar-brand {
+    font-family: 'georgia';
+    background-color: #4aaaa5;
+    color:white;
+    width:20%;
+    height: 70px;
+    margin: 0px 0px 0px 288px;
+    padding: 100px;
+    float: left;
+    clear: left;
+}
+h2 {
+    font-family: 'georgia', 'Times New Roman', Times, serif;
+    text-align: left;
+    color:#4aaaa5;
+}
+body {
+    text-align: center;
+    background-image: url('../images/interlaced.png');
+    padding: 0;
+    margin: 0;
+}
+p {
+    color:#777777;
+}
+form {
+    color:#777777;
+}
+.fontcolor {
+    color: #777777;
+}
+.whitebox {
+    background-color: white;
+    position: fixed;
+    overflow: auto;
+    margin: 20px 288px;
+    padding: 20px;
+    width: 960px;
+}
+footer {
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    background: #777777;
+}
+p.foot {
+    position: absolute;
+    width: 100%;
+    color:white;
+    line-height: 5px;
+    text-align: center;
+    bottom:0;
+}
