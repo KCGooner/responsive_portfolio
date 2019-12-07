@@ -1,3 +1,4 @@
+/*
 #submit {
     background-color: #4aaaa5;
     cursor: pointer;
@@ -6,3 +7,7 @@
     height: 30px;
     width: 75px;
 }
+textarea {
+    width: 100%;
+}
+/*
