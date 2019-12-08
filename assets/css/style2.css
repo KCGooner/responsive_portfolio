@@ -1,11 +1,9 @@
-/*
 img {
     float: left;
 }
 .wrap {
     float: left;
-    margin:10px;
-    padding: 5px;
+    margin:5px;
     font-family: 'arial';
     font-size: 22px;
     color:#777777;
@@ -14,4 +12,3 @@ img {
     height:200px;
     width:200px;
 }
-/*
