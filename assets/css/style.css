@@ -17,7 +17,7 @@ p {
 }
 .whitebox {
     background-color: white;
-    overflow: auto;
+    overflow:auto;
     margin: 20px 288px;
     padding: 20px;
     width: 960px;
@@ -39,4 +39,10 @@ p.foot {
     line-height: 5px;
     text-align: center;
     bottom:0;
+}
+.name {
+    background-color: #4aaaa5;
+}
+#myname {
+    color:white;
 }
