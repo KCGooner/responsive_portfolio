@@ -1,8 +1,15 @@
 .nav-link{
     float:left;
 }
+.navbar {
+    border-radius: 12px;
+}
+.list-group-item {
+    float: left;
+}
 .whitebox {
-    background-color: white;
+    background-color:white;
+    border-radius: 12px;
     overflow: auto;
     margin: 20px 288px;
     padding: 20px;
@@ -16,7 +23,7 @@ img {
     margin:5px;
     font-family: 'arial';
     font-size: 22px;
-    color:#777777;
+    color: black;
 }
 #picture {
     height:200px;
@@ -25,15 +32,15 @@ img {
     margin: 20px 20px 5px 20px;
 }
 body {
-    background-image: url('../responsive_portfolio/assets/images/interlaced.png');
+    background-image: url("../responsive_portfolio/assets/images/swirl_pattern.png");
     text-align: center;
 }
 a {
-    float: right;
+    /* float: right; */
     padding:5px;
 }
 #submit {
-    background-color: #4aaaa5;
+    background-color: black;
     cursor: pointer;
     border: none;
     color: white;
@@ -47,7 +54,9 @@ a {
     margin-left: auto;
 }
 .name {
-    background-color: #4aaaa5;
+    background-color: black;
+    border-radius: 12px;
+
     text-align: center;
 }
 #myName {
@@ -57,27 +66,27 @@ a {
     text-align: center;
 }
 
-#hangman{
+#codingquiz{
     height: 250px;
     width: 250px;
 }
 
-#rpggame{
+#dayplanner{
     height: 250px;
     width: 250px;
  }
 
- #trivia{
+ #passwordgenerator{
     height: 250px;
     width: 250px;
  }
 
- #rutgersinfowidget{
+ #offenderapp{
     height: 250px;
     width: 250px;
  }
 
- #rockpaperscissors{
+ #offenderapp{
     height: 250px;
     width: 250px;
  }
@@ -115,31 +124,37 @@ a {
     width: 250px;
   }
   h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Josefin Sans', sans-serif;
     text-align: left;
-    color: #4aaaa5
+    color: black;
 }
 
 h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    background-color: #4aaaa5;
+    background-color:black;
     color: white;
+    padding: 0px;
+    margin: 0px;
     width: 100%;
 }
 p {
     padding:0px 20px;
     margin:0px 0px 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.links {
+    float: right;
 }
 footer {
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid white;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 35px;
     text-align: center;
-    background: #777777;
+    background-color: black;
 }
 p.foot {
     position: absolute;
@@ -148,4 +163,7 @@ p.foot {
     line-height: 5px;
     text-align: center;
     bottom:0;
+}
+a {
+    text-decoration: none;
 }
