@@ -8,7 +8,7 @@
     float: left;
 }
 .whitebox {
-    background-color:white;
+    background-color: white;
     border-radius: 12px;
     overflow: auto;
     margin: 20px 288px;
@@ -26,8 +26,8 @@ img {
     color: black;
 }
 #picture {
-    height:200px;
-    width:200px;
+    height:250px;
+    width:250px;
     float: left;
     margin: 20px 20px 5px 20px;
 }
@@ -48,13 +48,14 @@ a {
     width: 75px;
 }
 .whitebox {
-    background-color: white;
+    background-color: slategray;
     overflow: auto;
     margin-right: auto;
     margin-left: auto;
+    color: white;
 }
 .name {
-    background-color: black;
+    background-color: slategray;
     border-radius: 12px;
 
     text-align: center;
