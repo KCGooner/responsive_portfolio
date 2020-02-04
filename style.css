@@ -48,16 +48,15 @@ a {
     width: 75px;
 }
 .whitebox {
-    background-color: slategray;
+    background-color: white;
     overflow: auto;
     margin-right: auto;
     margin-left: auto;
-    color: white;
+    color:black;
 }
 .name {
-    background-color: slategray;
+    background-color:black;
     border-radius: 12px;
-
     text-align: center;
 }
 #myName {
