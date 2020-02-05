@@ -1,14 +1,16 @@
 .nav-link{
     float:left;
+    color: white;
 }
 .navbar {
     border-radius: 12px;
+    background-color: #5d5c61;
 }
 .list-group-item {
     float: left;
 }
 .whitebox {
-    background-color: white;
+    background-color: #5d5c61 !important;
     border-radius: 12px;
     overflow: auto;
     margin: 20px 288px;
@@ -32,30 +34,27 @@ img {
     margin: 20px 20px 5px 20px;
 }
 body {
-    background-image: url("../responsive_portfolio/assets/images/swirl_pattern.png");
+    background-color: #7395ae !important;
+    text-decoration: none;
     text-align: center;
 }
 a {
-    /* float: right; */
     padding:5px;
 }
-#submit {
-    background-color: black;
-    cursor: pointer;
-    border: none;
+.contactlink {
+    background-color: #5d5c61 !important;
     color: white;
-    height: 30px;
-    width: 75px;
 }
+
 .whitebox {
-    background-color: white;
+    /* background-color: #edeae5; */
     overflow: auto;
     margin-right: auto;
     margin-left: auto;
-    color:black;
+    color: white;
 }
 .name {
-    background-color:black;
+    background-color: #557a95;
     border-radius: 12px;
     text-align: center;
 }
@@ -67,28 +66,28 @@ a {
 }
 
 #codingquiz{
-    height: 250px;
-    width: 250px;
+    height: 225px;
+    width: 225px;
 }
 
 #dayplanner{
-    height: 250px;
-    width: 250px;
+    height: 225px;
+    width: 225px;
  }
 
  #passwordgenerator{
-    height: 250px;
-    width: 250px;
+    height: 225px;
+    width: 225px;
  }
 
  #offenderapp{
-    height: 250px;
-    width: 250px;
+    height: 225px;
+    width: 225px;
  }
 
  #offenderapp{
-    height: 250px;
-    width: 250px;
+    height: 225px;
+    width: 225px;
  }
 
  .content-holder {
@@ -126,13 +125,13 @@ a {
   h2{
     font-family: 'Josefin Sans', sans-serif;
     text-align: left;
-    color: black;
+    color: white;
 }
 
 h3{
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    background-color:black;
+    background-color: #5d5c61;
     color: white;
     padding: 0px;
     margin: 0px;
@@ -147,23 +146,30 @@ p {
     float: right;
 }
 footer {
-    border-top: 8px solid white;
+    border-top: 8px solid #557a95;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 35px;
     text-align: center;
-    background-color: black;
+    background-color: #5d5c61;
 }
 p.foot {
     position: absolute;
     width: 100%;
-    color:white;
+    color: white;
     line-height: 5px;
     text-align: center;
     bottom:0;
 }
-a {
+a:link {
+    color: white;
     text-decoration: none;
+}
+a:hover {
+    color: blue;
+}
+span {
+    color: white;
 }
