@@ -65,7 +65,7 @@ a {
     text-align: center;
 }
 
-#notes {
+#notes{
     height: 225px;
     width: 225px;
 }
@@ -80,7 +80,7 @@ a {
     width: 225px;
  }
 
- #eatburger {
+ #eatburger{
     height: 225px;
     width: 225px;
  }
@@ -91,11 +91,6 @@ a {
  }
 
  #njs2 {
-    height: 225px;
-    width: 225px;
- }
-
- #offenderapp{
     height: 225px;
     width: 225px;
  }
